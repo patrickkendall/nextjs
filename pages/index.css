@@ -1,0 +1,22 @@
+.outerDiv {
+    background-color: #F4F2EB;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+  }
+
+  .imageDiv2 {
+    position: absolute;
+    right: 00px;
+    top: 50px;
+  }
+
+  .circleSpan {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 10px;
+    text-align: center;
+  }

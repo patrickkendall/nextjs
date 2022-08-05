@@ -1,9 +1,10 @@
+
+
 .container {
   padding: 0 2rem;
 }
 
 .main {
-  min-height: 100vh;
   padding: 4rem 0;
   flex: 1;
   display: flex;
@@ -126,4 +127,232 @@
   .logo img {
     filter: invert(1);
   }
+}
+
+.header {
+  height: 138px;
+  background-color: #f4f2eb;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.svg {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.svg2 {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+}
+
+.headerFont {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: sans-serif;
+}
+
+.topMenuOptions {
+  position: absolute;
+  margin-top: 70px;
+  right: 30px;
+}
+
+.redSection {
+  position: absolute;
+  width: 100%;
+  height: 681px;
+  left: 0px;
+  top: 139px;
+  background: #cb0007;
+  z-index: -1;
+}
+
+.login {
+  position: absolute;
+  top: 20px;
+  font-weight: bold;
+  font-family: sans-serif;
+  right: 50px;
+}
+
+.portfolioButton {
+  position: absolute;
+  width: 229px;
+  height: 60px;
+  left: 100px;
+  top: 518px;
+  background: #d7b344;
+  border-radius: 4px;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  border: none;
+}
+
+.slogan {
+  z-index: 500;
+  margin-top: 150px;
+  margin-left: 100px;
+}
+
+.quote {
+  position: absolute;
+  margin-top: 350px;
+  margin-left: -520px;
+}
+
+.image1{
+  border-radius: 12px;
+  position: absolute;
+  right: 600px;
+  width: 400px;
+  height: 250px;
+}
+
+.imageDiv1 {
+  position: absolute;
+  margin-top: -280px !important;
+  right: 400px !important;
+  z-index: 1;
+}
+
+
+.squareStyle{
+  position: absolute;
+  width: 60%;
+  height: 1131px;
+  left: 0px;
+  top: 681px;
+  z-index: 5;
+  background: white;
+}
+
+.image2 {
+    border-radius: 12px;
+    box-shadow: 10px, 10px, 10px, black;
+    height: 400px;
+    width:250px;
+    resize: none
+}
+
+.outerDiv {
+  background-color: #F4F2EB;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.imageDiv2 {
+  position: absolute;
+  right: 100px;
+  top: 250px;
+  border-radius: 12px;
+  border-radius: 12px;
+  box-shadow: 10px, 10px, 10px, black;
+  height: 400px;
+  width:250px;
+  z-index: 1;
+}
+
+.mustardDiv {
+  position: absolute;
+  width: 250px;
+  height: 400px;
+  right: 200px;
+  z-index: 0;
+  top: 200px;
+  
+  background: #D8B243;
+  border-radius: 16px;
+}
+
+.imageDiv3 {
+  position: absolute;
+  left: 100px;
+  top: 800px;
+  border-radius: 12px;
+  z-index: 10;
+  border-radius: 15px;
+}
+
+.image3 {
+  border-radius: 12px;
+}
+
+.imageDiv4 {
+  position: absolute;
+  right: 100px;
+  top: 800px;
+  border-radius: 12px;
+  z-index: 10;
+  border-radius: 15px;
+}
+
+.imageDiv5 {
+  position: absolute;
+  right: 10px;
+  margin-top: 870px;
+  border-radius: 12px;
+  z-index: 10;
+  border-radius: 15px;
+}
+
+.imageDiv6 {
+  position: absolute;
+  right: 10px;
+top: 770px;
+z-index: 20
+}
+
+.circle {
+  background: #d7b2448b;
+  width: 138px;
+  height: 138px;
+  border-radius: 100px;
+  z-index: 101;
+  position: relative;
+  display: inline-block;
+  top: 1600px;
+  margin: 11.9%
+}
+
+.group {
+  z-index: 100;
+  margin-left: 12%;
+  background-color: white;
+}
+
+.groups {
+  position: absolute;
+  left: 0;
+
+  height: 300px;
+  display: inline;
+  width: 100%;
+  margin: 10%;
+}
+
+.circleSpan {
+  position: absolute;
+  text-align: center;
+  width: 132px;
+  margin-top: 160px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.circleSpanNext {
+  position: absolute;
+  font-size: 15px;
+  text-align: center;
+  width: 132px;
+  margin-top:200px;
 }
