@@ -25,8 +25,8 @@ export default class Home extends React.Component {
           </svg>
           <svg
             className={styles.svg2}
-            width="85"
-            height="84"
+            width="105"
+            height="104"
             viewBox="0 0 85 84"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"

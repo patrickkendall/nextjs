@@ -140,18 +140,18 @@
 
 .svg {
   position: absolute;
-  top: 10px;
+  top: 30px;
   left: 10px;
-  height: 50px;
-  width: 50px;
+  height: 70px;
+  width: 70px;
 }
 
 .svg2 {
   position: absolute;
-  top: 10px;
+  top: 30px;
   left: 10px;
-  height: 50px;
-  width: 50px;
+  height: 70px;
+  width: 70px;
 }
 
 .headerFont {
@@ -202,13 +202,13 @@
   position: absolute;
   z-index: 500;
   margin-top: 150px;
-  left: 100px;
+  left: 6vw;
 }
 
 .quote {
   position: absolute;
   margin-top: 350px;
-  left: 100px;
+  left: 6vw;
 }
 
 .image1{
@@ -394,11 +394,14 @@ z-index: 20
 @media only screen and (max-width: 1100px) {
 
   .slogan {
-    width: 30%;
+    position: absolute;
+    width: 40%;
+    left: -380px;
   }
 
   .quote {
-    width: 30%;
+    width:0%;
+    left: 20px;
   }
 
   .squareStyle {
@@ -433,7 +436,7 @@ z-index: 20
 
   .imageDiv5 {
     left:10px;
-    margin-top: 1150px;
+    margin-top: 1070px;
     width: 40%;
   }
 
@@ -447,14 +450,60 @@ z-index: 20
     visibility: hidden;
   }
 
+  .portfolioButton {
+    position: absolute;
+    width: 229px;
+    height: 60px;
+    left: 100px;
+    top: 518px;
+    left: 6vw;
+    background: #d7b344;
+    border-radius: 4px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    border: none;
+  }
+
+  .slogan {
+    margin-top: 20px;
+    width:70%;
+  }
+
+  .quote {
+    margin-top: 70px;
+    width:750px;
+    height: 80%;
+    margin-left: -10px;
+  }
+
+  .portfolioButton {
+    left: 10px;
+  }
+
 }
 
 @media only screen and (max-width: 700px) {
 
   .slogan {
+    position: absolute;
+    margin-top: 20px;
+    width:70%;
+    left: 0px;
   }
 
   .quote {
+    margin-top: 70px;
+    width:750px;
+    height: 80%;
+    margin-left: -10px;
+  }
+
+  .portfolioButton {
+    left: 10px;
+    width: 50%;
+    height: 10%;
+    font-size: 1.5rem
   }
 
   .g {
@@ -474,10 +523,8 @@ z-index: 20
   }
 
   .headerFont {
-    margin-left: 8.5px;
-    margin-right: 3.5px;
     margin-top: 20px;
-    font-size: .9rem;
+    font-size: 20px;
     white-space: nowrap;
   }
 
@@ -494,14 +541,18 @@ z-index: 20
 
   .imageDiv5 {
     left:10px;
-    margin-top: 1000px;
-    width: 40%;
+    margin-top: 1100px;
+    width: 70%;
+  }
+
+  .g {
+    margin-top: 10px;
   }
 
   .imageDiv6 {
     left:10px;
-    margin-top: -70px;
-    width: 40%;
+    margin-top: -80px;
+    width: 100%;
   }
 
   .imageDiv3 {
