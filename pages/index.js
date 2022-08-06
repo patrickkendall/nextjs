@@ -125,7 +125,7 @@ export default class Home extends React.Component {
             <div className={styles.squareStyle}></div>
             <div className={styles.mustardDiv}></div>
           </div>
-          <div className="g">
+          <div className={styles.g}>
           <div className={styles.circle}>
             <span className={styles.circleSpan}>Customers</span>
             <span className={styles.circleSpanNext}>See our portfolio</span>
